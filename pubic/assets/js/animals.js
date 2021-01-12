@@ -65,14 +65,3 @@ const handleGetAnimalsSubmit = event => {
   for (let i = 0; i < selectedTraits.length; i += 1) {
     personalityTraitArr.push(selectedTraits[i].value);
   }
-
-  const personalityTraits = personalityTraitArr.join(',');
-
-  const animalObject = { diet, personalityTraits };
-
-  getAnimals(animalObject);
-};
-
-$animalForm.addEventListener('submit', handleGetAnimalsSubmit);
-
-getAnimals();

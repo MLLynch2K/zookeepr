@@ -15,5 +15,13 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLLynch2K/zookeepr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MLLynch2K/zookeepr/issues"
+  },
+  "homepage": "https://github.com/MLLynch2K/zookeepr#readme"
 }
